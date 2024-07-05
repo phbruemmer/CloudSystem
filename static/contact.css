@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E3E6F3;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p, li {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
+body {
+    width: 100%;
+}
+
+/* -- ABOUT HEADER -- */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #d2d6e2;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#navbar li {
+    list-style: none;
+    position: relative;
+    padding: 0 40px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1a1a1a;
+    transition: 0.4s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color:seagreen;
+}
+
+/* --- HOME --- */
+
+#contact-start {
+    background-color: #E3E6F3;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-start h4 {
+    padding-bottom: 15px;
+}
+
+#contact-start h1 {
+    color: seagreen;
+}
+
+#contact-start button {
+    margin-top: 50px;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.5s ease;
+    background-color: #c6cbdeb0;
+}
+
+#contact-start button:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    color: seagreen;
+}
+
+/* -- BANNER -- */
+
+#banner {
+    background-color: #c2cbf9;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.42);
+    transition: 0.5s ease;
+    padding-top: 40px;
+}
+
+#banner:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.52);
+}
+
+#banner h4 {
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    transition: 0.8s ease;
+}
+
+#banner h2 {
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    transition: 0.8s ease;
+}
+
+#banner h2:hover {
+    font-size: 48px;
+}
+
+#contact {
+    background-color: #b1bdf9;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.42);
+    transition: 0.5s ease;
+}
+
+#contact:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.52);
+}
+
+#contact h4 {
+    color: #fff;
+    text-align: center;
+    transition: 0.8s ease;
+}
+
+#contact h4:hover {
+    color: #dae1f5;
+}
+
+#contact p {
+    text-align: center;
+    transition: .8s ease    ;
+}
+
+#contact p:hover
+{
+    color: #698277;
+}
+
+#contact .form {
+    text-align: center;
+}
+
+#contact input {
+    height: 45px;
+    padding: 12px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+}
+
+#contact button {
+    font-weight: 500;
+}
+
+#contact button:hover {
+    color: seagreen;
+}
+
+#mail {
+    background-color: #a8b6fb;
+}
+
+#mail .area {
+    text-align: center;
+}
+
+#mail span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#mail textarea {
+    resize: none;
+    width: 60%;
+    height: 35vh;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+#mail .send {
+    text-align: center;
+}
+
+#mail button {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#mail button:hover {
+    color: seagreen;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bau-Modul-Fachberater</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="contact.css">
+</head>
+    <body>
+
+        <section id="header">
+            <a href="#"> <img src="img/logo.png" class="logo" alt=""> </a>
+
+            <div>
+                <ul id="navbar">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="shop.html">Shop</a> </li>
+                    <li> <a href="about.html">About</a> </li>
+                    <li> <a class="active" href="contact.html">Contact</a> </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact-start" class="section-p1">
+            <h4>Bau-Modul-Fachberater</h4>
+            <h2>Fenster, Rolläden und mehr.</h2>
+            <h1>Direkt ab Werk</h1>
+            <button class="normal" onclick="document.getElementById('contact').scrollIntoView();">Kontaktinformationen</button>
+        </section>
+
+        <section id="banner" class="section-p1">
+            <h4>Bau-Modul-Fachberater</h4>
+            <h2>Kontaktinformationen</h2>
+        </section>
+
+        <section id="contact" class="section-p1">
+
+            <div class="newstext">
+
+                <h4>Falls sie <span>Probleme</span> entdeckt haben oder uns <span>Feedback</span> geben wollen, können Sie es hier erledigen.</h4>
+                <p>Es wird eine <strong>Kopie der E-Mail</strong> an Ihre eigene E-Mail gesendet, um <strong><span>Probleme</span></strong> zu verhindern.</p>
+            </div>
+
+            <div class="form">
+                <input type="email" placeholder="Ihre E-Mail Adresse">
+                <button class="normal" onclick="alert('Die Email Funktion ist zu diesem Zeitpunkt noch nicht verfügbar.\nVersuchen Sie es später erneut.');">Anmelden</button>
+            </div>
+
+        </section>
+
+
+        <section id="mail" class="section-p1">
+            <div class="area">
+
+                <form action="mailto:phbruemmer@gmail.com" method="post" enctype="multipart/form-data" name="EmailForm">
+                    <p><strong>Empfänger:</strong>  <span> email@email.de</span></p>
+
+                    <textarea name="Nachricht" id="msg" cols="30" rows="10" placeholder="Ihre Nachricht"></textarea>
+                    <div class="send">
+                        <button class="normal" type="submit" value="submit">senden</button>
+                    </div>
+                </form>
+            </div> 
+        </section>
+
+
+        <script>
+            // alert("Diese Seite ist zurzeit nicht vollständig!")
+        </script>
+
+    </body>
+</html>

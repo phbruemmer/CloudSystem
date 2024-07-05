@@ -2,9 +2,175 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Cloud</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud-Server Project</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="../static/style.css" />
   </head>
   <body>
+    <section id="header">
+      <div>
+        <ul id="navbar">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="plans.html">Plans</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="start">
+      <h4>Cloud-Server</h4>
+      <h2>Storage, File-Sharing, and MORE.</h2>
+      <h1>1 MB FOR FREE</h1>
+      <p>
+        More information and server-status
+        <span> <strong>LINK EINFÜGEN!</strong></span>
+      </p>
+
+      <button
+        class="normal"
+        onclick="document.getElementById('media').scrollIntoView();"
+      >
+        show more
+      </button>
+    </section>
+
+    <section id="products" class="section-p1">
+      <h2>Plans</h2>
+      <p>Storage, File-Sharing, and MORE</p>
+
+      <div class="container">
+        <a href="products.html" class="product">
+          <div id="pro1" onclick="">
+            <div class="description">
+              <span>Objekt</span>
+              <h5>Weitere Details laden...</h5>
+
+              <h4>42€</h4>
+            </div>
+          </div>
+        </a>
+
+        <a href="products.html" class="product">
+          <div id="pro2">
+            <div class="description">
+              <span>Objekt</span>
+              <h5>Weitere Details laden...</h5>
+
+              <h4>42€</h4>
+            </div>
+          </div>
+        </a>
+
+        <a href="products.html" class="product">
+          <div id="pro3">
+            <div class="description">
+              <span>Objekt</span>
+              <h5>Weitere Details laden...</h5>
+
+              <h4>42€</h4>
+            </div>
+          </div>
+        </a>
+
+        <a href="products.html" class="product">
+          <div id="pro4">
+            <div class="description">
+              <span>Objekt</span>
+              <h5>Weitere Details laden...</h5>
+
+              <h4>42€</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <a class="more" href="plans.html">show more</a>
+    </section>
+
+    <section id="banner" class="section-m1">
+      <h4>More Information</h4>
+      <h2>Storage, File-Sharing - <span>1 MB FOR FREE</span> - and more.</h2>
+      <button class="normal" href>Über uns</button>
+    </section>
+
+    <section id="media" class="section-m1">
+      <h2>My Storage</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
+        voluptates reprehenderit quia quidem debitis veniam animi ullam, tenetur
+      </p>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>
+          To make sure you don't miss anything, <span>subscribe</span> to our
+          <span>Newsletter.</span>
+        </h4>
+        <p>
+          You will receive <strong>E-Mail Updates</strong> about
+          <strong><span>new offers</span></strong> or
+          <strong><span>other changes.</span></strong>
+        </p>
+      </div>
+
+      <div class="form">
+        <input type="text" placeholder="E-Mail" />
+        <button
+          class="normal"
+          onclick="alert('Die Newsletter Funktion ist zu diesem Zeitpunkt noch nicht verfügbar.\nVersuchen Sie es später erneut.');"
+        >
+          subscribe
+        </button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Kontakt</h4>
+        <p><strong>Adresse:</strong> Lorem-Straße, Straße 42, Bsp-Stadt</p>
+        <p>
+          <strong>Telefonnummer:</strong> +49 01 23456 789 / +49 01 2345 6789
+        </p>
+        <p><strong>Öffnungszeiten:</strong> 10:00 - 18:00. Mon - Sam</p>
+
+        <div class="follow">
+          <h4>Siehe auch</h4>
+          <div class="icon">
+            <a href="https://www.facebook.com/">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.twitter.com/">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/baumodulfachberater/">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>Weitere Informationen</h4>
+        <a href="#">Über uns</a>
+        <a href="#">Lieferinformationen</a>
+        <a href="#">Datenschutzrichtlinie</a>
+        <a href="#">Allgemeine Geschäftsbedingungen (AGB)</a>
+        <a href="#">Kontaktieren Sie uns</a>
+      </div>
+
+      <div class="copyright">
+        <p>© 2024, phbruemmer - Not finished yet</p>
+      </div>
+    </footer>
   </body>
 </html>
